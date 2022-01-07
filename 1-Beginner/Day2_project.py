@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-# Tip calculator
+# TIP CALCULATOR
 
 #If the bill was $150.00, split between 5 people, with 12% tip. 
 
