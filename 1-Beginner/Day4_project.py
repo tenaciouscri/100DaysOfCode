@@ -61,5 +61,7 @@ elif player_choice == 2 and computer_choice == 1:
     print("You win")
 elif player_choice == 1 and computer_choice == 0:
     print("You win")
+elif player_choice > 2:
+    print("Don't cheat! Input invalid")
 else:
     print("You lose")
