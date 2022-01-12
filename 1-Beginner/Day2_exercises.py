@@ -24,7 +24,7 @@ height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
 # DO NOT EDIT
 
-bmi = float(weight) / (float(height)**2)
+bmi = float(weight) / (float(height) ** 2)
 
 print(int(bmi))
 
@@ -43,4 +43,6 @@ days_left = 365 * years_left
 weeks_left = 52 * years_left
 months_left = 12 * years_left
 
-print(f"You have {days_left} days, or {weeks_left} weeks, or {months_left} months left.")
+print(
+    f"You have {days_left} days, or {weeks_left} weeks, or {months_left} months left."
+)
