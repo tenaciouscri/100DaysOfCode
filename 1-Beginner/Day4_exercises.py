@@ -50,16 +50,16 @@ print(f"{names[whos_paying]} is going to buy the meal today!")
 # is the horizontal row number.
 
 # DO NOT EDIT
-row1 = ["⬜️","⬜️","⬜️"]
-row2 = ["⬜️","⬜️","⬜️"]
-row3 = ["⬜️","⬜️","⬜️"]
+row1 = ["⬜️", "⬜️", "⬜️"]
+row2 = ["⬜️", "⬜️", "⬜️"]
+row3 = ["⬜️", "⬜️", "⬜️"]
 map = [row1, row2, row3]
 print(f"{row1}\n{row2}\n{row3}")
 position = input("Where do you want to put the treasure? ")
 # DO NOT EDIT
 
-chosen_column = int(position[0]) -1
-chosen_row = int(position[1]) -1
+chosen_column = int(position[0]) - 1
+chosen_row = int(position[1]) - 1
 
 map[chosen_row][chosen_column] = "X"
 
