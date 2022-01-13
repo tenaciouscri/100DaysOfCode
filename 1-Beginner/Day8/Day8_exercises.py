@@ -3,16 +3,18 @@
 from math import ceil
 
 # 1. PAINT AREA CALCULATOR
-# 
+#
 # You are painting a wall. The instructions on the paint can says that 1 can of
 # paint can cover 5 square meters of wall. Given a random height and width of
 # wall, calculate how many cans of paint you'll need to buy.
+
 
 def paint_calc(height, width, cover):
     number_of_cans = ceil((height * width) / cover)
     print(f"You'll need {number_of_cans} cans of paint.")
 
-# Define a function called paint_calc() so that the code below works.   
+
+# Define a function called paint_calc() so that the code below works.
 
 # DO NOT EDIT
 test_h = int(input("Height of wall: "))
@@ -26,6 +28,7 @@ paint_calc(height=test_h, width=test_w, cover=coverage)
 # You need to write a function that checks whether if the number passed into it is
 # a prime number or not.
 
+
 def prime_checker(number):
     is_prime = True
     for i in range(2, number):
@@ -36,7 +39,8 @@ def prime_checker(number):
     else:
         print("It's not a prime number.")
 
-#Do NOT EDIT
+
+# Do NOT EDIT
 n = int(input("Check this number: "))
 prime_checker(number=n)
 # DO NOT EDIT
