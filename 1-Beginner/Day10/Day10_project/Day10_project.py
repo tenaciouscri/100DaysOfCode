@@ -6,17 +6,22 @@ from art import logo
 
 # Functions
 
+
 def add(a, b):
     return a + b
+
 
 def subtract(a, b):
     return a - b
 
+
 def multiply(a, b):
     return a * b
 
+
 def divide(a, b):
     return a / b
+
 
 # Dictionary
 
@@ -32,6 +37,7 @@ operations = {
 print(logo)
 print("Welcome to the Python Calculator!")
 
+
 def calculator():
     num1 = float(input("Enter the first number: "))
 
@@ -43,10 +49,10 @@ def calculator():
     while not calculation_over:
         chosen_operation = input("Pick an operation symbol: ")
         num2 = float(input("Enter the next number: "))
-        
+
         calculation_function = operations[chosen_operation]
         answer = calculation_function(num1, num2)
-        
+
         print(f"{num1} {chosen_operation} {num2} = {answer}")
         continue_calculation = input(
             f"Type 'y' to continue calculating with {answer}, or type 'n' to start a new calculation: "
@@ -60,5 +66,6 @@ def calculator():
             calculator()
         else:
             calculation_over = True
+
 
 calculator()
