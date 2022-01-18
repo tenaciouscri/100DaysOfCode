@@ -39,7 +39,7 @@ def game():
     answer = randint(1, 101)
 
     # Debug
-    print(f"Pssst, the correct answer is {answer}")
+    # print(f"Pssst, the correct answer is {answer}")
 
     # Difficulty selection / Setting up guesses
     turns = set_difficulty()
