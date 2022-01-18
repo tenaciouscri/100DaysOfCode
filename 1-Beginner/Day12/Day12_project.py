@@ -22,12 +22,14 @@ def check_answer(guess, answer, turns):
     else:
         print(f"You got it! The answer was {answer}.")
 
+
 def set_difficulty():
     level = input("Choose a difficulty. Type 'easy' or 'hard': ")
     if level == "easy":
         return EASY_LEVEL_TURNS
     elif level == "hard":
         return HARD_LEVEL_TURNS
+
 
 def game():
     # Welcome message
@@ -53,5 +55,6 @@ def game():
         if turns == 0:
             print("You've run out of guesses, you lose!")
             return
+
 
 game()
